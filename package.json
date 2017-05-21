@@ -1,0 +1,25 @@
+{
+  "name": "json-compare",
+  "version": "1.0.0",
+  "description": "compare json different",
+  "main": "index.js",
+  "scripts": {
+    "test": "node example/index.js"
+  },
+  "keywords": [
+    "json",
+    "diff",
+    "compare",
+    "node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wangliguo6666/json-diff.git"
+  },
+  "author": "wangliguo 294126043@qq.com",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "lodash": "^4.17.4"
+  }
+}
