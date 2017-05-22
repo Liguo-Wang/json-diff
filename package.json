@@ -1,6 +1,6 @@
 {
   "name": "compare-json-difference",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "compare json different",
   "main": "index.js",
   "scripts": {
