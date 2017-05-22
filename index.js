@@ -13,7 +13,7 @@ function compareJson(source, target, isOutLog = true) {
     log(error);
   } else {
     const data = jsonDiff(source, target);
-    flag = data.flag || true;
+    flag = data.flag !== undefined ? data.flag : true;
     const diffData = printDiff(data.diff);
     if (isOutLog) {
       if (flag) {
